@@ -1,3 +1,13 @@
+:root {
+    --hero-footer-background-color: #1F2937;
+    --hero-main-logo-text-color: #F9FAF8;
+    --hero-secondary-link-text-color: #E5E7EB;
+    --button-color: #3882F6;
+    --info-header-text-color: #1F2937;
+    --quote-text-color: #1F2937;
+    --quote-background-color: #E5E7EB;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,7 +19,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 16px;
-    background-color: #1F2937;
+    background-color: var(--hero-footer-background-color);
     color: #E5E7EB;
 }
 
