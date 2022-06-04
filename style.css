@@ -163,7 +163,7 @@ figcaption {
     display: flex;
     justify-content: center;
     background-color: var(--quote-background-color);
-    padding: 2.5% 0;
+    padding: 5% 0;
 }
 
 .quote {
@@ -176,18 +176,17 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 0;
+    padding: 7% 0;
 }
 
 .sign-up-container {
-    box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2% 8%;
+    gap: 48px;
     background-color: var(--button-color);
     border-radius: 15px;
-    gap: 10%;
     color: var(--hero-secondary-link-text-color)
 }
 
