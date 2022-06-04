@@ -3,13 +3,10 @@
 }
 
 :root {
-    --header-footer-background-color: #1F2937;
-    --hero-main-logo-text-color: #F9FAF8;
-    --hero-secondary-link-text-color: #E5E7EB;
-    --button-color: #3882F6;
-    --info-header-text-color: #1F2937;
-    --quote-text-color: #1F2937;
-    --quote-background-color: #E5E7EB;
+    --gun-metal: #1F2937;   /* header and footer background color; information header, quote text color*/
+    --baby-powder: #F9FAF8; /* hero main, logo text color*/
+    --gainsboro: #E5E7EB;   /* secondary, header link text color, quote section background color*/
+    --azure: #3882F6;       /* button color; call to action background color, card image border color */
 }
 
 body {
@@ -22,14 +19,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--header-footer-background-color);
+    background-color: var(--gun-metal);
     padding-top: 16px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: var(--hero-main-logo-text-color);
+    color: var(--baby-powder);
     margin: 0;
 }
 
@@ -52,11 +49,11 @@ ul {
 }
 
 ul, button, .hero-content {
-    color: var(--hero-secondary-link-text-color);
+    color: var(--gainsboro);
 }
 
 button {
-    background-color: var(--button-color);
+    background-color: var(--azure);
     border: none;
     border-radius: 5px;
     margin: 0;
@@ -74,13 +71,13 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 16px;
-    background-color: var(--header-footer-background-color);
+    background-color: var(--gun-metal);
     color: #E5E7EB;
 }
 
 blockquote {
     
-    color: var(--quote-text-color);
+    color: var(--gun-metal);
     font-size: 36px;
     font-style: italic;
 }
@@ -101,7 +98,7 @@ figcaption {
 
 .logo {
     font-size: 24px;
-    color: var(--hero-main-logo-text-color);
+    color: var(--baby-powder);
 }
 
 .banner-main {
@@ -115,7 +112,7 @@ figcaption {
 .hero-container, .hero-image {
     flex: 1;
     font-size: 18px;
-    color: var(--hero-secondary-link-text-color);
+    color: var(--gainsboro);
 }
 
 .hero-container {
@@ -155,14 +152,14 @@ figcaption {
 
 .image-container {
     height: 140px;
-    border: 2px solid var(--button-color);
+    border: 2px solid var(--azure);
     border-radius: 15px;
 }
 
 .row-container-quote {
     display: flex;
     justify-content: center;
-    background-color: var(--quote-background-color);
+    background-color: var(--gainsboro);
     padding: 5% 0;
 }
 
@@ -185,9 +182,9 @@ figcaption {
     align-items: center;
     padding: 2% 8%;
     gap: 48px;
-    background-color: var(--button-color);
+    background-color: var(--azure);
     border-radius: 15px;
-    color: var(--hero-secondary-link-text-color)
+    color: var(--gainsboro)
 }
 
 .sign-up-subtext {
