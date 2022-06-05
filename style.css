@@ -19,15 +19,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--gun-metal);
     padding-top: 16px;
+    background-color: var(--gun-metal);
 }
 
 h1 {
+    margin: 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: var(--baby-powder);
-    margin: 0;
 }
 
 h2 {
@@ -39,13 +39,13 @@ h2, h3 {
 }
 
 ul {
-    list-style: none;
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
     gap: 16px;
     font-size: 18px;
+    list-style: none;
 }
 
 ul, button, .hero-content {
@@ -53,12 +53,12 @@ ul, button, .hero-content {
 }
 
 button {
-    background-color: var(--azure);
-    border: none;
-    border-radius: 5px;
     margin: 0;
     padding: 4px 16px;
     font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--azure);
 }
 
 a {
@@ -75,11 +75,8 @@ footer {
     color: #E5E7EB;
 }
 
-blockquote {
-    
+blockquote {padding: 0 48px;
     color: var(--gun-metal);
-    font-size: 36px;
-    font-style: italic;
 }
 
 figcaption {
@@ -126,8 +123,8 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  grey;
     padding: 0 48px;
+    background-color:  grey;
 }
 
 .row-container-cards {
