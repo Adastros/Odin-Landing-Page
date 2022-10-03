@@ -1,11 +1,27 @@
 # Odin-Landing-Page
 
-This project is a part of the Odin Project Foundations
-curriculum and involves creating a mock landing page 
-for a website.
+## About
 
-Link to live page: https://adastros.github.io/Odin-Landing-Page/
+This project is a recreation of a landing page for a website. The landing page was created based off a
+<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png">
+design file
+</a>
+and
+<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png">
+style file
+</a>
+provided by The Odin Project.
 
-What I learned:
-- how to structure a page using Flexbox
-- how to create a page using vanilla CSS and HTML
+## Project Stack
+
+ <img src="https://skillicons.dev/icons?i=html,css" />
+
+## What I Learned
+
+- How to structure a webpage using Flexbox
+- How to create a webpage using vanilla CSS and HTML
+- How to create a webpage based on a design file
+
+## Live Link to Landing Page
+
+https://adastros.github.io/Odin-Landing-Page/
