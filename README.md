@@ -16,7 +16,7 @@ provided by The Odin Project.
 
  <img src="https://skillicons.dev/icons?i=html,css" />
 
-## What I Learned
+## What I learned or improved on:
 
 - How to structure a webpage using Flexbox
 - How to create a webpage using vanilla CSS and HTML
